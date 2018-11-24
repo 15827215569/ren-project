@@ -1,0 +1,64 @@
+/* 整个项目都能使用到的样式 */
+html,body{
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+body{
+    background-color: pink;
+}
+.head{
+    border:1px solid red;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head .logo{
+    font-size: 26px;
+    text-decoration: none;
+}
+.head .right{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    width: 300px;
+    height: 100%;
+    border:1px solid blue;
+    overflow-y: auto;
+}
+.menu li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom:1px solid #ccc;
+}
+
+.foot{
+    border:1px solid green;
+    height: 60px;
+}
+.main{
+    flex: 1;
+    display: flex;
+    background-color:#fff;
+}
+.main .body{
+flex: 1;
+}
+
+
+
+
+
+
+
+
+
+/* ======================================= 修改列表鼠标悬停样式*/
+.table-hover>tbody>tr:hover{
+    background-color:blueviolet;
+}

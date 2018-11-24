@@ -1,0 +1,1 @@
+<div class="foot">我是底部</div>
