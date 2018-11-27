@@ -17,5 +17,8 @@ router.get('/user.html', function (req, res) {
 router.get('/info.html', function (req, res) {
   res.render('info');
 });
+router.get('/login.html', function (req, res) {
+  res.render('login');
+});
 
 module.exports = router;
